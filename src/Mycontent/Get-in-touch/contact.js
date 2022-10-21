@@ -40,7 +40,7 @@ export default function Contact() {
                         placeholder="Your Name..."
                         type={Text}
                         name="name"
-                        data-name="name"
+                        data-name="name" 
                         className="Contact-me__inputs"
                         style={{
                             borderBottom: theme ? `2px solid ${Light}` : "",
