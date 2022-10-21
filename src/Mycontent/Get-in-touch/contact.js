@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
             <div className="Contact-me__form-container">
                 <form
-                    action="https://send.pageclip.co/yh6R1pyBL60VMdKFjPRVkZnW8HWlw4r0/yahya"
+                    action="https://send.pageclip.co/6VXrYbF9yOzencSdGjZpU6D1IrGH1VPR/myform"
                     class="pageclip-form"
                     className="Contact-me__form"
                     method="post">
