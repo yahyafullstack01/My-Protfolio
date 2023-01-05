@@ -226,11 +226,12 @@
 .Head {
   display: grid;
   grid-template-columns: auto 0.6fr;
-  margin: 2% 5% 2% 5%;
-  padding-top: 5%;
+  margin: 5% 5% 5% 5%;
+  border-radius: 5%;
 }
 @media (max-width: 768px) and (min-width: 425px) {
   .Head {
+    grid-template-columns: auto 0.9fr;
     padding-top: 0;
   }
 }
@@ -238,6 +239,7 @@
   .Head {
     margin: 3% 3% 3% 3%;
     grid-template-columns: auto;
+    height: auto;
     justify-content: center;
   }
 }
@@ -252,6 +254,7 @@
 @media (max-width: 425px) {
   .Head__intro-container {
     order: 2;
+    margin-top: 50vw;
   }
 }
 .Head__intro {
@@ -358,27 +361,27 @@
   }
 }
 .Head__img-container {
-  display: flex;
-  height: 62%;
+  display: block;
+  background: url(./me.jpeg) no-repeat center;
+  background-size: cover;
+  border-radius: 30%;
+  margin-left: 10%;
+  width: 80%;
+  border: 5px solid rgb(227, 245, 247);
 }
 @media (max-width: 768px) and (min-width: 425px) {
   .Head__img-container {
-    height: auto;
+    width: 100%;
+    border-radius: 30%;
+    margin: 0;
   }
 }
 @media (max-width: 425px) {
   .Head__img-container {
-    height: 60%;
-  }
-}
-.Head__me {
-  display: flex;
-  border-radius: 30%;
-  width: 100%;
-}
-@media (max-width: 425px) {
-  .Head__me {
-    margin-top: 2%;
+    margin: 0;
+    height: 70vw;
+    border-radius: 30%;
+    width: 100%;
   }
 }
 

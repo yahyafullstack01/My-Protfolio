@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../../Mycontext/context";
-import { Link } from "react-router-dom";
-import Me from "./my.png";
+import Me from "./me.jpeg";
 import { HashLink } from "react-router-hash-link";
 
 export default function Head() {
@@ -38,12 +37,12 @@ export default function Head() {
                 </div>
             </div>
             <div className="Head__img-container">
-                <img
+                {/* <img
                     src={Me}
                     alt="A picture of myself"
                     className="Head__me"
-                />
+                /> */}
             </div>
-        </div >
+        </div>
     );
 }

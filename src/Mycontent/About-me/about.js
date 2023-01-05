@@ -43,7 +43,7 @@ export default function About() {
                     />
                     <br /><br />
                 </div>
-                My name Yahya, {age} years old and I'm thriving future Front-end-developer.
+                My name is Yahya, {age} years old and I'm thriving future Front-end-developer.
                 <div className="About__info-box">
                 </div>
                 Creating websites and using different technologies helps me to get a lot of experience and a great way

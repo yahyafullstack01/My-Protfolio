@@ -4,7 +4,7 @@
 @import "../Mycontent/Navigation/menu";
 @import "../Mycontent/Introduction/head";
 @import "../Mycontent/Skills/skills";
-@import "../Mycontent/My-work/work";
+@import "../Mycontent/My-work/work"; 
 @import "../Mycontent/About-me/about";
 @import "../Mycontent/Get-in-touch/contact";
 @import "../Mycontent/The_end/foot";
@@ -39,6 +39,7 @@ a {
 
 
 .App {
+  // background: rgb(106, 158, 241);
   display: flex;
   height: auto;
   flex-direction: column;
