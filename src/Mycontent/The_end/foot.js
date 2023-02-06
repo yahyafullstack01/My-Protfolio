@@ -9,7 +9,7 @@ import { BsTelegram } from "react-icons/bs";
 export default function End() {
     const { theme, dark, Light } = useContext(AppContext);
     return (
-        <div id="projects" className="Foot" style={{ background: theme ? `${Light}` : "" }}>
+        <div id="projects" className="Foot" style={{ background: theme ? "" : `${Light}` }}>
             <div className="Foot__logo-container">
                 <HashLink smooth to="/#">
                     <img
@@ -21,49 +21,49 @@ export default function End() {
             </div>
             <div className="Foot__link-container"
                 style={{
-                    borderBottom: theme ? `2px solid ${dark}` : "",
-                    borderTop: theme ? `2px solid ${dark}` : ""
+                    borderBottom: theme ? "" : `2px solid ${dark}`,
+                    borderTop: theme ? "" : `2px solid ${dark}`
                 }}>
                 <HashLink
-                    style={{ color: theme ? `${dark}` : "" }}
+                    style={{ color: theme ? "" : `${dark}` }}
                     className="Foot__link"
                     smooth to="/#Skills">
                     Skills
                 </HashLink>
                 <HashLink
-                    style={{ color: theme ? `${dark}` : "" }}
+                    style={{ color: theme ? "" : `${dark}` }}
                     className="Foot__link"
                     smooth to="/#projects">
                     Projects
                 </HashLink>
                 <HashLink
-                    style={{ color: theme ? `${dark}` : "" }}
+                    style={{ color: theme ? "" : `${dark}` }}
                     className="Foot__link"
                     smooth to="/#about">
                     About me
                 </HashLink>
 
                 <HashLink
-                    style={{ color: theme ? `${dark}` : "" }}
+                    style={{ color: theme ? "" : `${dark}` }}
                     className="Foot__link"
                     smooth to="/CONTACTS#contact-me">
                     Contact me
                 </HashLink>
             </div>
             <div className="Foot__social-container">
-                <div className="Foot__created" style={{ color: theme ? `${dark}` : "" }}>©2022 Proudly created with React</div>
+                <div className="Foot__created" style={{ color: theme ? "" : `${dark}` }}>©2022 Proudly created with React</div>
                 <div className="Foot__socials">
                     <a href="https://www.linkedin.com/in/yahya-alloucha/" target="_blank">
-                        <AiFillLinkedin className="Foot__icon" style={{ color: theme ? `${dark}` : "" }} />
+                        <AiFillLinkedin className="Foot__icon" style={{ color: theme ? "" : `${dark}` }} />
                     </a>
                     <a href="https://github.com/yahyafullstack01" target="_blank">
-                        <AiFillGithub className="Foot__icon" style={{ color: theme ? `${dark}` : "" }} />
+                        <AiFillGithub className="Foot__icon" style={{ color: theme ? "" : `${dark}` }} />
                     </a>
                     <a href="https://telegram.me/Grimhunter9"
-                    ><BsTelegram className="Foot__icon" style={{ color: theme ? `${dark}` : "" }} />
+                    ><BsTelegram className="Foot__icon" style={{ color: theme ? "" : `${dark}` }} />
                     </a>
                     <a href="https://www.instagram.com/yahya_salhi_01/?theme=dark" target="_blank">
-                        <AiFillInstagram className="Foot__icon" style={{ color: theme ? `${dark}` : "" }} />
+                        <AiFillInstagram className="Foot__icon" style={{ color: theme ? "" : `${dark}` }} />
                     </a>
                 </div>
             </div>

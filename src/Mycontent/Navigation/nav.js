@@ -6,11 +6,11 @@ import Logo from "./logo.jpg";
 import Menu from "./burger.jpg";
 import Close from "./cross.jpg";
 import { RiSunFill } from "react-icons/ri";
-import { BsMoonFill } from "react-icons/bs"; 
+import { BsMoonFill } from "react-icons/bs";
 
 
 export default function Nav() {
-    const { theme, change , Light } = useContext(AppContext);
+    const { theme, change, Light } = useContext(AppContext);
     return (
         <div className="All-conatainer">
             <div className="Navbar">
@@ -20,34 +20,34 @@ export default function Nav() {
                             src={Logo}
                             alt="My logo site"
                             className="Navbar__logo"
-                            style={{ border: theme ? `4px solid ${Light}` : "" }}
+                            style={{ border: theme ? "" : `4px solid ${Light}` }}
                         />
                     </Link>
                 </div>
                 <div className="Navbar__link-container">
                     <HashLink
-                        style={{ color: theme ? `${Light}` : "" }}
+                        style={{ color: theme ? "" : `${Light}` }}
                         className="Navbar__links"
                         smooth
                         to="/#Skills">
                         Skills
                     </HashLink>
                     <HashLink
-                        style={{ color: theme ? `${Light}` : "" }}
+                        style={{ color: theme ? "" : `${Light}` }}
                         className="Navbar__links"
                         smooth
                         to="/#projects">
                         Projects
                     </HashLink>
                     <HashLink
-                        style={{ color: theme ? `${Light}` : "" }}
+                        style={{ color: theme ? "" : `${Light}` }}
                         className="Navbar__links"
                         smooth
                         to="/#about">
                         About me
                     </HashLink>
                     <Link
-                        style={{ color: theme ?`${Light}` : "" }}
+                        style={{ color: theme ? "" : `${Light}` }}
                         className="Navbar__links"
                         smooth to="/CONTACTS">
                         Contact me
@@ -66,9 +66,11 @@ export default function Nav() {
                     {
                         <nav onClick={() => change()}>
                             {theme === false ?
-                                <BsMoonFill className="Navbar__moon" />
-                                :
+
+
                                 <RiSunFill className="Navbar__icon" />
+                                :
+                                <BsMoonFill className="Navbar__moon" />
                             }
                         </nav>
                     }

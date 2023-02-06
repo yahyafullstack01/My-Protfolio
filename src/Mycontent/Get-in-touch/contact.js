@@ -10,7 +10,7 @@ export default function Contact() {
         <div id="contact-me" className="Contact-me">
             <div className="Contact-me__head-container">
                 <h1
-                    style={{ color: theme ? "rgb(217, 217, 217)" : "" }}
+                    style={{ color: theme ? "" : "rgb(217, 217, 217)" }}
                     className="Contact-me__head">
                     Get In Touch
                 </h1>
@@ -22,7 +22,7 @@ export default function Contact() {
             </div>
             <div className="Contact-me__title-container">
                 <p
-                    style={{ color: theme ? "rgb(217, 217, 217)" : "" }}
+                    style={{ color: theme ? "" : "rgb(217, 217, 217)" }}
                     className="Contact-me__title">
                     There you are i've been waiting for you 😀<br /><br />
                     Don't be shy feel free to ask me anything either by<br />
@@ -40,10 +40,10 @@ export default function Contact() {
                         placeholder="Your Name..."
                         type={Text}
                         name="name"
-                        data-name="name" 
+                        data-name="name"
                         className="Contact-me__inputs"
                         style={{
-                            borderBottom: theme ? `2px solid ${Light}` : "",
+                            borderBottom: theme ? "" : `2px solid ${Light}`,
                             color: theme ? `${Light}` : ""
                         }}
                         required
@@ -55,7 +55,7 @@ export default function Contact() {
                         data-name="Email"
                         className="Contact-me__inputs"
                         style={{
-                            borderBottom: theme ? `2px solid ${Light}` : "",
+                            borderBottom: theme ? "" : `2px solid ${Light}`,
                             color: theme ? `${Light}` : ""
                         }}
                         required
@@ -67,7 +67,7 @@ export default function Contact() {
                         name="body"
                         data-name="message"
                         style={{
-                            borderBottom: theme ? `2px solid ${Light}` : "",
+                            borderBottom: theme ? "" : `2px solid ${Light}`,
                             color: theme ? `${Light}` : ""
                         }}
 
@@ -76,8 +76,8 @@ export default function Contact() {
                         className="Contact-me__sub pageclip-form__submit"
                         type="submit"
                         style={{
-                            background: theme ? `${Light}` : "",
-                            color: theme ? `${dark}` : ""
+                            background: theme ? "" : `${Light}`,
+                            color: theme ?  "" : `${dark}`
                         }}
                     >
                         Send

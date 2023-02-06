@@ -18,7 +18,7 @@ export default function Work() {
         <div id="projects" className="Work">
             <div className="Work__head-container">
                 <h1
-                    style={{ color: theme ? `${Light}` : "" }}
+                    style={{ color: theme ? "" : `${Light}` }}
                     className="Work__head">
                     My Work
                 </h1>
@@ -30,7 +30,7 @@ export default function Work() {
             </div>
             <div className="Work__title-container">
                 <p
-                    style={{ color: theme ? `${Light}` : "" }}
+                    style={{ color: theme ? "" : `${Light}` }}
                     className="Work__title">
                     Do you want a beautiful responsive website on all devices,
                     if thats the case then i'm your guy.
@@ -53,7 +53,7 @@ export default function Work() {
                             <img src={Drone_gf} alt="A floating drone" className="Work__proj-gif" />
                         </div>
                         <p
-                            style={{ color: theme ? `${Light}` : "" }}
+                            style={{ color: theme ? "" : `${Light}` }}
                             className="Work__proj-info">
                             A project that i built using the Next js framework,
                             i've added some features such a Carousel and a modal.
@@ -79,7 +79,7 @@ export default function Work() {
                             <img src={Uk_flag} alt="A floating drone" className="Work__proj-gif-uk" />
                         </div>
                         <p
-                            style={{ color: theme ? `${Light}` : "" }}
+                            style={{ color: theme ? "" : `${Light}` }}
                             className="Work__proj-info">
                             Study-in-uk is a website that helps people to apply for a visa for studying in Ukraine and
                             picking what university is suitable for you, its also has two languages for both english and
@@ -106,7 +106,7 @@ export default function Work() {
                             <img src={Pop} alt="A floating drone" className="Work__proj-gif-pop" />
                         </div>
                         <p
-                            style={{ color: theme ? `${Light}` : "" }}
+                            style={{ color: theme ? "" : `${Light}` }}
                             className="Work__proj-info">
                             Movie picker is a website that helps you search for your favourite movie or series,
                             it also has sanity built in. so the client can edit, add and remove movies or series that
@@ -132,7 +132,7 @@ export default function Work() {
                             <h1 className="Work__proj-title">Stocks</h1>
                             <img src={Crypto} alt="A floating drone" className="Work__proj-gif" />
                         </div>
-                        <p style={{ color: theme ? `${Light}` : "" }}
+                        <p style={{ color: theme ? "" : `${Light}` }}
                             className="Work__proj-info">
                             A freelancing website a created for a client that involves crypto currencies.
                         </p>
@@ -156,7 +156,7 @@ export default function Work() {
                             <h1 className="Work__proj-title">Covid Stats</h1>
                             <img src={Cov} alt="A floating drone" className="Work__proj-gif" />
                         </div>
-                        <p style={{ color: theme ? `${Light}` : "" }}
+                        <p style={{ color: theme ? "" : `${Light}` }}
                             className="Work__proj-info">
                             Website using this web site, you can get the last statistics about COVID 19.I built this project with React js.See project Statistics of COV19.
                         </p>

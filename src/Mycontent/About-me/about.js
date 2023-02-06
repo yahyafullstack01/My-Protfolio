@@ -13,6 +13,7 @@ import Sass from "./sass.jpg";
 import Bootstrap from "./bootstrap.jpg";
 import Mysql from "./mysql.jpg";
 import Nodejs from "./nodejs.jpg";
+import Firebase from "./firebase.png";
 import Sanity from "./sanity.jpg";
 
 
@@ -23,7 +24,7 @@ export default function About() {
         <div id="about" className="About">
             <div className="About__head-container">
                 <h1
-                    style={{ color: theme ? `${Light}` : "" }}
+                    style={{ color: theme ? "" : `${Light}` }}
                     className="About__head">
                     About me
                 </h1>
@@ -33,7 +34,7 @@ export default function About() {
                     className="About__gif"
                 />
             </div>
-            <div className="About__title-container" style={{ color: theme ? `${Light}` : "" }}>
+            <div className="About__title-container" style={{ color: theme ? "" : `${Light}` }}>
                 So we've reached the end dear viewer, Now let me formally Introduce myself.
                 <div className="About__info-box">
                     <img
@@ -43,7 +44,7 @@ export default function About() {
                     />
                     <br /><br />
                 </div>
-                My name is Yahya, {age} years old and I'm thriving future Front-end-developer.
+                My name is Yahya I'm a motivated Web developer.
                 <div className="About__info-box">
                 </div>
                 Creating websites and using different technologies helps me to get a lot of experience and a great way
@@ -59,19 +60,19 @@ export default function About() {
                 At the beginning I started with the basics (Html , CSS , Js).
                 <div className="About__info-box">
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Html}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Css}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Javascript}
                         alt=""
                         className="About__tech"
@@ -81,13 +82,13 @@ export default function About() {
                 But then I learned different types of frame works such as (React.js , Next Js).
                 <div className="About__info-box">
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Reactjs}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Nextjs}
                         alt=""
                         className="About__tech"
@@ -97,19 +98,19 @@ export default function About() {
                 For styling I learned (Tailwind CSS , Sass , Bootstrap).
                 <div className="About__info-box">
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Tailwind}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Sass}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Bootstrap}
                         alt=""
                         className="About__tech"
@@ -119,24 +120,24 @@ export default function About() {
                 I also used data storing and fetching from a platform I've been using for a while (Sanity Io).
                 <div className="About__info-box">
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Sanity}
                         alt=""
                         className="About__tech"
                     />
                     <br /><br />
                 </div>
-                For now I'm studying (Node js) as a backend language and inserting data by using (Mysql).
+                 I'm  Using (Node js) as a backend language and Firebase for its many great features.
                 <div className="About__info-box">
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
                         src={Nodejs}
                         alt=""
                         className="About__tech"
                     />
                     <img
-                        style={{ border: theme ? `5px solid ${Light}` : "" }}
-                        src={Mysql}
+                        style={{ border: theme ? "" : `5px solid ${Light}` }}
+                        src={Firebase}
                         alt=""
                         className="About__tech"
                     />

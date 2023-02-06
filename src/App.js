@@ -45,7 +45,7 @@ export default function App() {
 
   return (
     <AppContext.Provider value={{ change, theme, dark, Light }}>
-      <body style={{ background: theme ? `${dark}` : "" }} className="App">
+      <body style={{ background: theme ? "" : `${dark}` }} className="App">
         <Navigation />
         <Routes>
           <Route exact path='/' element={
